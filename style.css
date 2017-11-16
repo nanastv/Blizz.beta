@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(games-bg.jpg);
+    background-size: 100%
+}
+.backg {
+    background-image: url(company-landing.jpg)
+}
+.header {
+    width: 992px;
+    height: 132px;
+    background-image: url(nav-bg.png);
+    margin: 0 auto;
+    padding-top: 43px;
+    padding-left: 217px;
+    box-sizing: border-box
+}
+
+.bar {
+    width: 762px;
+    height: 83px;
+    background-image: url(nav-bar.gif);
+    display: flex
+}
+
+.link {
+    width: 142px;
+    height: 83px;
+    text-align: right;
+    padding-top: 50px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    
+}
+.bar a {
+    text-decoration: none;
+    color: white;
+   
+}
+.main {
+    width: 980px;
+    margin: 0 auto;
+    height: 700px
+}
+
+.main h1 {
+    font-size: 34px;
+    color: #FFFFFF;
+    margin-left: 25px
+}
+.topbar {
+    height: 44px;
+    background-image: url(box-top.jpg);
+    background-size: 100%;
+    border-radius: 10px 10px 0 0;
+    padding-top: 2px;
+    padding-left: 7px;
+    box-sizing: border-box
+}
+.topbar p {
+    font-size: 14px;
+    
+}
+.games {
+    background-image: url(box-body-top.gif);
+    display: flex;
+    flex-wrap: wrap;
+    background-size: 100% 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px
+}
+
+.box {
+    width: 320px;
+    height: 290px;
+    margin: 0 auto;
+    text-align: center
+}
+.box img:hover {
+    opacity: 0.6
+}
+.box p {
+    font-size: 11px;
+    color: #5d91a3;
+        padding: 11px 15px 15px 15px;
+    text-align: left
+}
+.bottom {
+    height: 500px;
+    width: 980px;
+    text-align: center;
+    margin-top: 50px
+}
+.a {
+    margin-top: 25px
+}
+.a a {
+    color: #01b2f1;
+    margin-right: 15px;
+    text-decoration: none
+}
+.a a:hover {
+    color: white
+}
+.p {
+    width: 500px;
+    margin: 20px auto;
+    color: #344956;
+    font-size: 15px
+}
+.soc {
+    height: 200px;
+    width: 980px ;
+    color: #344956;
+    text-align: left;
+}
+.soc a {
+    margin-right: 5px;
+}
+.be {
+   text-align: right
+    
+    
+}

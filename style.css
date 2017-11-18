@@ -43,7 +43,7 @@ body {
 .main {
     width: 980px;
     margin: 0 auto;
-    height: 700px
+    height: 700px;
 }
 
 .main h1 {
@@ -64,6 +64,23 @@ body {
     font-size: 14px;
     
 }
+.topbar1 {
+    height: 44px;
+    background-image: url(box-top.jpg);
+    background-size: 180%;
+    border-radius: 10px 10px 0 0;
+    padding-top: 2px;
+    padding-left: 7px;
+    box-sizing: border-box;
+    width: 670px;
+}
+.ot {
+    margin-left: auto
+}
+.re {
+    width: 270px;
+    background-size: 370%;  
+}
 .games {
     background-image: url(box-body-top.gif);
     display: flex;
@@ -73,7 +90,34 @@ body {
     box-sizing: border-box;
     border-radius: 0 0 10px 10px
 }
-
+.cont {
+    background-image: url(box-body-top.gif);
+    display: flex;
+    flex-wrap: wrap;
+    background-size: 100% 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+    height: 160px
+}
+.cont p {
+     font-size: 11px;
+    color: #5d91a3;
+    text-align: left;
+    width: 230px;
+    margin: auto
+}
+.games p{
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    margin: auto;
+    height: 150px;
+    font-size: 20px;
+    color: #8fd2eb;
+    text-align: center
+}
 .box {
     width: 320px;
     height: 290px;
@@ -86,9 +130,17 @@ body {
 .box p {
     font-size: 11px;
     color: #5d91a3;
-        padding: 11px 15px 15px 15px;
-    text-align: left
+    padding: 11px 15px 15px 15px;
+    text-align: left;
+    width: 320px
 }
+.box1 p {
+     font-size: 11px;
+    color: #5d91a3;
+    text-align: left;
+    width: 245px
+}
+
 .bottom {
     height: 500px;
     width: 980px;
@@ -123,6 +175,27 @@ body {
 }
 .be {
    text-align: right
-    
-    
+}
+.box1 {
+    height: 290px;
+    width: 235px;
+    margin-left: 10px;
+    margin-top: 10px
+}
+.box1 img:hover {
+    opacity: 0.6
+}
+.paran {
+    width: 980px;
+    display: flex;
+    height: 230px;
+    padding-top: 25px
+}
+.bu {
+    width: 119px;
+    height: 27px;
+    margin: auto;
+    background: #3dadff;
+    color: white;
+    border: none
 }
